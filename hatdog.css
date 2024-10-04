@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    color: #333;
+}
+
+header {
+    background-color: #ff69b4;
+    padding: 20px;
+    color: white;
+}
+
+.question-container {
+    margin: 20px;
+}
+
+.options button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff1493;
+    color: white;
+    font-size: 16px;
+}
+
+.options button:hover {
+    background-color: #ff69b4;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+}
